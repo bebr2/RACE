@@ -1,0 +1,960 @@
+[
+    {
+        "question": "the last time la dodgers won the world series",
+        "cots": [
+            "The Los Angeles Dodgers last won the World Series in 2021.",
+            "They defeated the Houston Astros in a thrilling Game 7.",
+            "This victory was a significant milestone for the team, as they had not won the World Series since 2005."
+        ]
+    },
+    {
+        "question": "who sings ain't nothing but a good time",
+        "cots": [
+            "The song \"Ain't Nothin' But a Good Time\" is by The Stone Roses.",
+            "The song is from The Stone Roses' 1999 album \"Never Mind the Bollocks.\"",
+            "The song has a catchy melody and a lively, party-themed vibe.",
+            "The lyrics emphasize enjoying the present moment without worrying about the past or future."
+        ]
+    },
+    {
+        "question": "where does the movie the sound of music take place",
+        "cots": [
+            "The movie \"The Sound of Music\" is set in Austria.",
+            "The main locations featured in the movie are Salzburg and Vienna.",
+            "The story begins in Salzburg, where the main character, Mary, moves to and gets involved with the Vienna Philharmonic.",
+            "The film is predominantly set in Austria, with some possible scenes in other European locations.",
+            "The movie spans across multiple regions in Austria and possibly other parts of Europe."
+        ]
+    },
+    {
+        "question": "statue coming out of the ground in washington dc",
+        "cots": [
+            "The Lincoln Memorial is a famous statue of Abraham Lincoln located on the National Mall in Washington DC.",
+            "The Washington Monument is a large obelisk located in the National Mall, also on the surface.",
+            "The National Mall contains many other monuments and statues, all of which are on or above ground level.",
+            "There is no widely known statue in Washington DC that is described as \"coming out of the ground.\"",
+            "The phrase might be misunderstood or used metaphorically."
+        ]
+    },
+    {
+        "question": "field hockey is the national sport of which country",
+        "cots": [
+            "Field hockey is not the national sport of the US or Canada.",
+            "The UK hosts the Great Britain and Northern Ireland Field Hockey League (GBHFL).",
+            "The UK has participated in international events like the FIFA Women's World Cup and the Olympics.",
+            "Therefore, field hockey is recognized as a national sport in the UK."
+        ]
+    },
+    {
+        "question": "who governs in america\u2019s representative democracy (republic) system",
+        "cots": [
+            "The U.S. uses a system called federalism, dividing power between the central government and the states.",
+            "The Constitution establishes the federal government with three branches: Executive, Legislative, and Judicial.",
+            "The Executive Branch is led by the President, who is elected by the people and can be removed by impeachment.",
+            "The Legislative Branch is composed of Congress, which makes laws with the President's approval for most.",
+            "The Judicial Branch is the court system, with the Supreme Court as the highest authority.",
+            "Local governments handle local laws and services, varying in structure from small towns to large cities.",
+            "The Electoral College elects the President and Vice President based on popular and electoral votes.",
+            "Impeachment allows Congress to remove the President for abuse of power or other offenses.",
+            "The Bill of Rights protects individual freedoms.",
+            "Political parties influence elections and policy, shaping the political agenda.",
+            "Each branch has powers to limit others, ensuring a balance of power.",
+            "The President's line of succession includes the Vice President, with a chain of command for emergencies."
+        ]
+    },
+    {
+        "question": "who is the song you're my best friend about",
+        "cots": [
+            "The song \"My Best Friend\" is a duet.",
+            "The duet features Amy Winehouse and Amy Ray.",
+            "The song was released in the early 2000s, around 2002.",
+            "The song highlights the qualities of a best friend, such as kindness and loyalty."
+        ]
+    },
+    {
+        "question": "where was the church of latter day saints founded",
+        "cots": [
+            "The Church of Latter Day Saints is a religious organization.",
+            "Joseph Smith, a key figure in the Latter Day Saints movement, established the church.",
+            "The church was founded in Spokane, Washington.",
+            "The General Conference of the Church is held in Olympic National Park, which is near Spokane.",
+            "Therefore, the Church of Latter Day Saints was founded in Spokane, Washington."
+        ]
+    },
+    {
+        "question": "who os the father of bridget jones baby",
+        "cots": [
+            "The baby in \"Bridget Jones: The Edge of the World\" is adopted by a couple.",
+            "The couple is played by Richard Armitage and Emma Corrin.",
+            "The real biological father is not a main character in the show.",
+            "The baby serves as a plot device to advance the story."
+        ]
+    },
+    {
+        "question": "who is the nationalist leader associated with the american revolution",
+        "cots": [
+            "The American Revolution was a period when the colonies were uniting to form a new nation.",
+            "George Washington was a prominent figure in the American Revolution, serving as the commander-in-chief of the Continental forces.",
+            "He played a crucial role in uniting the colonies and declaring independence.",
+            "Benjamin Franklin and other Founding Fathers also supported the idea of a new nation, but Washington's military and political leadership were instrumental in achieving independence.",
+            "Therefore, George Washington is considered the nationalist leader associated with the American Revolution."
+        ]
+    },
+    {
+        "question": "what color is the president of south koreas house",
+        "cots": [
+            "The President of South Korea lives in a house called the Blue House.",
+            "The Blue House is a significant landmark in Seoul and the official residence of the President.",
+            "The color of the Blue House is blue, reflecting the role of the President as trustworthy and stable.",
+            "Therefore, the color of the President's house is blue."
+        ]
+    },
+    {
+        "question": "who is the security general of the un",
+        "cots": [
+            "The Security General of the UN is the head of the Security Council.",
+            "The Security Council is made up of 10 permanent members and 34 non-permanent members.",
+            "The current Security General is General Jacob Rebi\u00e8re.",
+            "General Jacob Rebi\u00e8re served from 2007 to 2019 and held the position of Chair of the United Nations Security Council."
+        ]
+    },
+    {
+        "question": "who won the first season of the rap game",
+        "cots": [
+            "The first season of \"The Rap Game\" was hosted by Boaz.",
+            "The winner of the first season was 50 Cent.",
+            "50 Cent was a prominent rapper at the time and his performance likely stood out among the other contestants.",
+            "The show was a reality competition where rappers performed and faced challenges, judged by experts.",
+            "The season was a ratings success and set the stage for future seasons."
+        ]
+    },
+    {
+        "question": "actor who played tommy in terms of endearment",
+        "cots": [
+            "Tommy was a character from The Andy Griffith Show.",
+            "The actor who played Tommy was Don Ameche.",
+            "Don Ameche was a versatile actor known for his roles in various shows and films, including The Waltons.",
+            "Don Ameche's performance as Tommy was endearing to many viewers."
+        ]
+    },
+    {
+        "question": "when did early voting start in the us",
+        "cots": [
+            "Early voting is when people can vote before Election Day.",
+            "The tradition of early voting began around 1824.",
+            "Initially, early voting was optional.",
+            "By the 19th century, early voting had become a more structured part of the electoral process.",
+            "Over time, especially with the civil rights movement and efforts to expand voter access, early voting became more formalized and accessible.",
+            "Today, early voting is a common practice in many states, often starting a few weeks before Election Day."
+        ]
+    },
+    {
+        "question": "list of longest running tv shows in india",
+        "cots": [
+            "\"Bigg Boss\" is a reality show franchise that has been consistently airing for 20 seasons since its debut in 2003.",
+            "Each season introduces a new group of participants, and the show continues to be a popular and ongoing franchise.",
+            "No other TV show in India has been around for as long as \"Bigg Boss.\""
+        ]
+    },
+    {
+        "question": "icc world cup outside england first time sponsor",
+        "cots": [
+            "The first World Cup was held in England in 1970.",
+            "The second World Cup was held in Australia in 1974.",
+            "The first sponsor of the World Cup was the British Council.",
+            "Therefore, the first ICC World Cup outside of England was held in 1974 in Australia, sponsored by the British Council."
+        ]
+    },
+    {
+        "question": "when is the draw for the european championships 2020",
+        "cots": [
+            "The European Championships 2020 were held in Doha, Qatar.",
+            "The draw was held in early August 2020.",
+            "The exact date of the draw was August 7, 2020."
+        ]
+    },
+    {
+        "question": "who plays the medical examiner on hawaii five-o",
+        "cots": [
+            "The medical examiner on \"Hawaii Five-O\" is Dr. Joseph Antonelli.",
+            "Dr. Joseph Antonelli is a well-known actor and has been a recurring character in various medical dramas, including \"Law & Order: SVU.\"",
+            "Dr. Antonelli's role in \"Hawaii Five-O\" involves performing autopsies and lab tests to assist in solving crimes."
+        ]
+    },
+    {
+        "question": "which piece of legislation placed the protections in the european convention on human rights",
+        "cots": [
+            "The European Convention on Human Rights (ECCHR) is a treaty established in 1950.",
+            "The ECCHR outlines the protections for human rights in Europe.",
+            "To implement the ECHR's provisions, various pieces of legislation, legal codes, and regulations have been adopted by the European Union and its member states.",
+            "These include directives, laws, and other legal texts.",
+            "Therefore, the ECCHR serves as the foundational treaty, with subsequent legislation supporting its implementation."
+        ]
+    },
+    {
+        "question": "who sang vande maataram in 1896 congress session",
+        "cots": [
+            "\"Vandamaram\" is a traditional Tamil poem associated with political themes of unity and resistance against foreign rule.",
+            "The 1896 Congress session was a significant event in Indian history, known for the formulation of the Salt March resolution.",
+            "Periyar E. V. was a prominent Tamil singer and political activist.",
+            "Periyar E. V. performed \"Vandamaram\" at the 1896 Congress session, reflecting his dual involvement in music and politics."
+        ]
+    },
+    {
+        "question": "who were the sponsor of the icc world cup when it was hosted outside england for the first time",
+        "cots": [
+            "The first ICC World Cup hosted outside England was in 1995, held in South Africa.",
+            "The main sponsors for that event were Visa, Mastercard, and British Telecom.",
+            "Visa Express was also involved as a division of Visa.",
+            "These companies were prominent in the 1990s and played significant roles in supporting the event."
+        ]
+    },
+    {
+        "question": "what is the most uneducated state in america",
+        "cots": [
+            "Education spending: Wyoming has a significantly lower per capita education budget compared to larger states.",
+            "High school graduation rates: States like Mississippi have relatively low high school graduation rates.",
+            "College graduation rates: Wyoming has a lower percentage of college graduates compared to many other states.",
+            "Literacy rates: States with higher percentages of adults without a high school diploma, such as Mississippi, might be considered more uneducated in terms of basic literacy.",
+            "The specific metric used to define \"most uneducated\" can change the answer, so it's important to specify the context."
+        ]
+    },
+    {
+        "question": "who makes the most tires in the world",
+        "cots": [
+            "The tire industry is huge, with many companies producing various types of tires.",
+            "Hankook Tyres is a South Korean company known for their tires in the automotive and agriculture sectors.",
+            "Considering the company's global presence and focus on different tire sectors, Hankook Tyres appears to be a leading player in the industry.",
+            "Based on the available information, Hankook Tyres seems to be the company that makes the most tires in the world.",
+            "However, it's important to verify this information with recent data or industry reports for confirmation."
+        ]
+    },
+    {
+        "question": "who argued with congress during the early years of reconstruction",
+        "cots": [
+            "The South's economy was heavily reliant on agriculture, particularly cotton.",
+            "Tariff disputes between the North and South were a significant point of contention.",
+            "Southern leaders and politicians argued against federal control, advocating for state sovereignty and autonomy.",
+            "The Compromise of 1867 allowed states to govern freed slaves, leading to opposition from Southerners.",
+            "The South was divided between Radical Republicans and Populists, influencing political arguments within Congress.",
+            "Key figures included Southern statesmen like Robert Anderson, South Carolina's governor, and wealthy white Southerners who owned plantations.",
+            "There were also arguments within Congress itself, particularly over Reconstruction bills and the balance between federal and state powers."
+        ]
+    },
+    {
+        "question": "in humans what determines the gender of the offspring",
+        "cots": [
+            "Humans have 46 chromosomes, including 23 pairs of autosomes and one pair of sex chromosomes.",
+            "Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY).",
+            "The mother contributes an X chromosome to all offspring.",
+            "The father contributes either an X or a Y chromosome.",
+            "If the sperm contributes an X chromosome, the offspring receives XX, resulting in female development.",
+            "If the sperm contributes a Y chromosome, the offspring receives XY, resulting in male development.",
+            "The Y chromosome is essential for male development, including testes, which are crucial for sperm production.",
+            "Chromosomal variations like XXY syndrome can affect gender determination but do not change the primary mechanism.",
+            "Hormones such as testosterone (male) and estrogen (female) are produced based on the sex chromosomes, influencing body development and other gender traits."
+        ]
+    },
+    {
+        "question": "when did rolex daytona stop using zenith movement",
+        "cots": [
+            "The Rolex Daytona line was introduced in the 1950s.",
+            "The Zenith movement was used in the Daytona watches during the 1950s and 1960s.",
+            "The 2600 movement was introduced in the mid-1970s.",
+            "The last models with the Zenith movement were produced in the 1970s.",
+            "Therefore, Rolex ceased using the Zenith movement in their Daytona watches in the 1970s."
+        ]
+    },
+    {
+        "question": "what is the song shine bright like a diamond about",
+        "cots": [
+            "The song \"Shine Bright Like a Diamond\" is by Shania Twain.",
+            "The song was released in 2000.",
+            "The title of the song uses a diamond metaphor to represent self-confidence and positivity.",
+            "The song encourages listeners to embrace their positive traits and overcome challenges.",
+            "The music video features Shania Twain in a positive light, highlighting her radiant personality.",
+            "The song's message is motivational, urging individuals to shine brightly and not be hindered by negativity."
+        ]
+    },
+    {
+        "question": "what does the valley mean in los angeles",
+        "cots": [
+            "The term \"valley\" in Los Angeles refers to the Santa Monica Valley.",
+            "The Santa Monica Valley is a low-lying geographical area surrounded by the Santa Monica Mountains.",
+            "The valley is a significant natural feature contributing to the city's diverse terrain.",
+            "It is popular for outdoor activities such as hiking and cycling.",
+            "The valley offers a contrast between the urban environment and the surrounding hills."
+        ]
+    },
+    {
+        "question": "what time period is a league of their own",
+        "cots": [
+            "The phrase \"a league of their own\" is used to describe something that stands out exceptionally due to its uniqueness and excellence.",
+            "In the context of The Legend of Zelda: Breath of the Wild, it refers to the game's orchestral music.",
+            "The orchestral music is a league of its own because it is significantly different and powerful compared to the game's ambient score.",
+            "This orchestral part is memorable and impactful, making it a standout element in the game's soundtrack."
+        ]
+    },
+    {
+        "question": "when was harry potter and the deathly hallows part 2 movie released",
+        "cots": [
+            "The Harry Potter and the Deathly Hallows Part 2 movie is the final installment in the series.",
+            "The first movie in the series was released in 2009.",
+            "The second movie was released in 2013.",
+            "The release date for Harry Potter and the Deathly Hallows Part 2 was July 18, 2013."
+        ]
+    },
+    {
+        "question": "the man in the high castle who is he",
+        "cots": [
+            "\"The man in the high castle\" suggests a character associated with a high castle or a significant ruler.",
+            "J.R.R. Tolkien's \"The King's County\" series features a High King of Highland, who is a prominent ruler.",
+            "The High King of Highland is associated with the High Castle of Highland.",
+            "Therefore, \"the man in the high castle\" likely refers to the High King of Highland in \"The King's County\" series."
+        ]
+    },
+    {
+        "question": "what was the last episode of inspector morse",
+        "cots": [
+            "The last episode of Inspector Morse was titled \"The Last of the Lost.\"",
+            "The episode was from season 13.",
+            "The show concluded around 2007 or 2008.",
+            "The last episode served as a season finale, wrapping up the storylines with some loose ends."
+        ]
+    },
+    {
+        "question": "who sings this crazy little thing called love",
+        "cots": [
+            "The song \"This Crazy Little Thing Called Love\" is a well-known song.",
+            "David Bowie is a British singer known for his work in the 80s.",
+            "David Bowie sang \"This Crazy Little Thing Called Love\" on his 1984 album \"Changes.\""
+        ]
+    },
+    {
+        "question": "which console to get red dead redemption 2",
+        "cots": [
+            "Red Dead Redemption 2 is available on PS4 and Xbox One.",
+            "The PS4 Pro offers better graphics and performance, but it's not necessary for playing the game.",
+            "The Xbox One S is compatible with the game, but check for region locks.",
+            "Compare prices across retailers to find the best deal, considering new and used consoles.",
+            "Verify the condition of a used console before purchasing.",
+            "Both platforms have active communities, but consider which might offer better support for this game."
+        ]
+    },
+    {
+        "question": "who won her first tennis grand slam in 2018",
+        "cots": [
+            "The question asks about a woman who won her first grand slam in 2018.",
+            "Serena Williams won Wimbledon in 2018.",
+            "Wimbledon is a grand slam tournament.",
+            "Therefore, Serena Williams won her first grand slam in 2018 at Wimbledon."
+        ]
+    },
+    {
+        "question": "who sings i got you under my skin",
+        "cots": [
+            "The song \"I Got You Under My Skin\" is by The Essex.",
+            "The Essex is a British rock band known for their hits in the 1980s and 1990s.",
+            "The song is a ballad that expresses deep affection or intimacy, using the metaphor of being under someone's skin.",
+            "It was released in the early 1990s and is known for its catchy melody and heartfelt lyrics."
+        ]
+    },
+    {
+        "question": "where did france colonize in the new world",
+        "cots": [
+            "France established colonies in the Caribbean, including the Bahamas, Jamaica, and the Dominican Republic.",
+            "France was involved in the Atlantic slave trade, which led to the acquisition of enslaved Africans for their colonies.",
+            "France had colonies in parts of Central America, such as Saint Lucia and Saint Kitts and Nevis.",
+            "Haiti and the Dominican Republic were French colonies, though the Dominican Republic later became Spanish.",
+            "France had limited but notable presence in the Pacific, primarily through coastal outposts and trading posts."
+        ]
+    },
+    {
+        "question": "a management information system is which type of system",
+        "cots": [
+            "Information systems are categorized based on their purpose and function.",
+            "Transactional systems handle day-to-day operations.",
+            "Management Information Systems (MIS) aggregate data from various sources, process it, and present it to support managerial and strategic decision-making.",
+            "Decision Support Systems (DSS) provide analytical tools and models for complex decisions.",
+            "Executive Information Systems (EIS) focus on high-level, aggregated information for executive-level decision-making.",
+            "MIS is distinct from these other types of systems due to its specific role in supporting managerial and strategic decision-making through data aggregation and presentation."
+        ]
+    },
+    {
+        "question": "when did the harry potter movie come out",
+        "cots": [
+            "The Harry Potter movie series consists of seven films based on the books by J.K. Rowling.",
+            "The first movie, Harry Potter and the Sorcerer's Stone, was released in 2001.",
+            "Each subsequent movie was released a few years after the previous one.",
+            "The last movie, Harry Potter and the Deathly Hallows: Part 2, was released in 2015.",
+            "Special editions were released for the first three movies in 2011, 2012, and 2013.",
+            "The last four films were remastered and released in 2015 and 2016."
+        ]
+    },
+    {
+        "question": "who went home on the first week of dancing with the stars juniors",
+        "cots": [
+            "The first week of the junior version of \"Dancing with the Stars\" involves the initial performance by the contestants.",
+            "After the performance, the judges and audience vote to eliminate one of the contestants.",
+            "The first elimination occurred in the first week.",
+            "The child who went home was named Sophie."
+        ]
+    },
+    {
+        "question": "where was the eastern front located in ww1",
+        "cots": [
+            "The Eastern Front during World War I was located in a large area stretching from the Black Sea to the Bosphorus.",
+            "This region encompassed modern-day Ukraine, Belarus, Poland, and parts of what is now Russia.",
+            "The front was a crucial battleground for both the Allied and Central Powers.",
+            "Major battles such as the Battle of Warsaw and the Somme took place on the Eastern Front.",
+            "The inclusion of the Ottoman Empire and the Russian Revolution further complicated the strategic landscape.",
+            "The Eastern Front's significance lies in its role as a major theater where the Central Powers, including Germany, concentrated their forces."
+        ]
+    },
+    {
+        "question": "who sings now that we have love what are we going to do with it",
+        "cots": [
+            "The song \"What Are We Going To Do With This Love\" is by The Backstreet Boys.",
+            "The Backstreet Boys were a popular boy band in the 90s and early 2000s.",
+            "The song was released in the early 2000s and became quite popular.",
+            "The lyrics include \"What do you think we're gonna do with this love.\""
+        ]
+    },
+    {
+        "question": "who played apollo creed in the original rocky",
+        "cots": [
+            "Apollo Creed is a character from the Rocky series.",
+            "The original Rocky movie was released in 1976, and Sylvester Stallone portrayed Apollo Creed.",
+            "Apollo Creed is a tough, steroid-addled character, and Stallone's physical presence fits the image.",
+            "Therefore, Apollo Creed was portrayed by Sylvester Stallone in the original Rocky movies."
+        ]
+    },
+    {
+        "question": "kuchipudi is a dance form of which state",
+        "cots": [
+            "Kuchipudi is a traditional dance form.",
+            "It is associated with the state of Kerala in India.",
+            "Kuchipudi is a part of the Bharatanatyam dance tradition.",
+            "It is known for its grace and leg movements, often performed in temple settings."
+        ]
+    },
+    {
+        "question": "what is the meaning of zhongguo renmin yinhang",
+        "cots": [
+            "\"Zhongguo\" translates to \"China.\"",
+            "\"Renmin\" means \"people's.\"",
+            "\"Yinhang\" is a bit tricky, but it could be related to \"hang,\" meaning \"arm\" or \"hand.\"",
+            "The term \"zhongguo renmin yinhang\" is often used metaphorically to emphasize the central role and influence of the Communist Party of China.",
+            "It reflects the idea of a strong, governing body that holds significant authority and responsibility in shaping the nation's destiny."
+        ]
+    },
+    {
+        "question": "where was the lion king musical first performed",
+        "cots": [
+            "The Lion King musical was first performed in the US.",
+            "It was a big hit, but I am not certain about the exact location.",
+            "The musical had its world premiere at the TKTS Stage at the Los Angeles Repertory Theatre on December 1, 1988."
+        ]
+    },
+    {
+        "question": "the federal housing administration (fha) insures lenders against",
+        "cots": [
+            "The FHA insures lenders against risks associated with providing mortgage loans.",
+            "The risks include borrower default, foreclosure, and insolvency.",
+            "The FHA provides insurance through the FHA Mortgagee Letter of Insurance.",
+            "This insurance formally assigns the lender's risk to the FHA.",
+            "The FHA's insurance ensures lenders are protected and can offer competitive mortgage terms and rates to borrowers."
+        ]
+    },
+    {
+        "question": "when the united states entered world war 1 it joined what powers",
+        "cots": [
+            "The U.S. was initially neutral before World War I.",
+            "When Germany declared war on Britain in 1914, the U.S. likely joined the Triple Entente, which included Britain, France, and Russia.",
+            "The U.S. became a member of the League of Nations in 1920, which aimed to promote peace and cooperation among member nations.",
+            "The U.S. provided military and diplomatic support to the Allies during the war."
+        ]
+    },
+    {
+        "question": "who is the main character in the labyrinth",
+        "cots": [
+            "The main character in \"The Labyrinth\" is Annabel.",
+            "Annabel is a brave and determined girl who leads her group through the labyrinth.",
+            "The group includes Peter and Lisa, who support Annabel on her journey.",
+            "The labyrinth is the central obstacle that Annabel and her group must overcome.",
+            "The story emphasizes themes of courage, teamwork, and perseverance."
+        ]
+    },
+    {
+        "question": "the predictable order of changes in communities after a change occurs",
+        "cots": [
+            "The initial change sets the stage for subsequent reactions.",
+            "The community responds to the change, ranging from support and adoption to resistance or neutral ignoring.",
+            "The reactions to the change can amplify or modify it.",
+            "The change may stabilize if supported widely or continue to evolve.",
+            "External factors like government policies, media, and economic conditions can accelerate or decelerate the cascade.",
+            "Leadership's role is crucial in promoting or hindering the change's spread.",
+            "Once a tipping point is reached, the change gains momentum, leading to rapid adoption.",
+            "Understanding the cascade helps in designing strategies to manage change effectively."
+        ]
+    },
+    {
+        "question": "who came up with the name rock and roll",
+        "cots": [
+            "The name \"rock and roll\" is associated with the imagery of a bus window in the late 1940s.",
+            "The bus window depicted a black man in a fedora rolling a pipe.",
+            "The song \"That's Shepherding My Cow\" by Billie Holiday mentioned a black man rolling a pipe.",
+            "The term \"roll\" in the song and the bus window image led to the name \"rock and roll.\"",
+            "The Chiffons, a music group from the South, popularized the genre and the name."
+        ]
+    },
+    {
+        "question": "what is the front of your lower leg called",
+        "cots": [
+            "The lower leg is called the thigh.",
+            "The front of the thigh is the anterior tibial surface.",
+            "The anterior tibial surface is the area closest to the hip joint.",
+            "It is crucial for movement and support."
+        ]
+    },
+    {
+        "question": "which branch of the us government makes federal laws",
+        "cots": [
+            "The U.S. government is divided into three branches: the executive, legislative, and judicial.",
+            "The legislative branch is responsible for making laws.",
+            "Congress, which consists of the House of Representatives and the Senate, is the actual body that creates laws.",
+            "The President can propose laws through executive orders and has the power of a veto, but Congress is the primary lawmaking body.",
+            "The legislative branch is crucial for establishing significant legislation, such as the Civil Rights Act and the Civil Nuclear Waste Management Act."
+        ]
+    },
+    {
+        "question": "by the year 2000 the largest number of legal immigrations to the united states came from",
+        "cots": [
+            "The largest number of legal immigrants to the United States by the year 2000 came from Germany."
+        ]
+    },
+    {
+        "question": "one who signals train to start or stop",
+        "cots": [
+            "The driver is responsible for operating the train.",
+            "The driver controls the start and stop mechanisms of the train.",
+            "Passengers typically do not signal the train.",
+            "Therefore, the person who signals the train to start or stop is the driver."
+        ]
+    },
+    {
+        "question": "when do cory and topanga get back together after lauren",
+        "cots": [
+            "Cory and Topanga were a couple in the show \"The Suite Life of Zack and Cody.\"",
+            "Lauren was introduced into the show, and Cory and Topanga had a relationship with her.",
+            "After the show ended, the movie \"The Suite Life of Zack and Cody: The Movie\" was released.",
+            "In the movie, Cory and Topanga reunit\u00e9.",
+            "The movie was released around 2015."
+        ]
+    },
+    {
+        "question": "who sang out of my head over you",
+        "cots": [
+            "The song \"Out of My Head Over You\" is associated with the movie \"The Dark Knight.\"",
+            "The artist of the song is likely Amy Winehouse.",
+            "Amy Winehouse's discography includes songs with similar themes and structures.",
+            "Therefore, the most probable performer of the song is Amy Winehouse."
+        ]
+    },
+    {
+        "question": "who is the tallest woman in the world and how tall is she",
+        "cots": [
+            "The tallest woman in the world is Zeng Zhen.",
+            "Zeng Zhen holds the Guinness World Records title.",
+            "Zeng Zhen is approximately 7 feet 2 inches (2.18 meters) tall.",
+            "Zeng Zhen is from Gansu Province, China.",
+            "Her height was verified by Guinness, and she has been featured in various media and photoshoots."
+        ]
+    },
+    {
+        "question": "when was the last time the detroit tigers went to the world series",
+        "cots": [
+            "The World Series is the championship game of Major League Baseball.",
+            "The Detroit Tigers have been to the World Series multiple times.",
+            "In 2015, the Tigers won the World Series against the Kansas City Royals.",
+            "Justin Verlander was a key player for the Tigers during this season and won the Cy Young Award.",
+            "The Tigers won the American League Central division that year, making them eligible for the World Series.",
+            "Therefore, the last time the Detroit Tigers went to the World Series was in 2015."
+        ]
+    },
+    {
+        "question": "who is covered by the right to financial privacy act",
+        "cots": [
+            "RFP is a federal privacy law in the US that protects consumers' right to financial privacy.",
+            "The law applies to any entity collecting or transmitting sensitive financial information about consumers.",
+            "Consumers include individuals who use credit or obtain financial services such as credit cards, loans, bank accounts, or other services involving credit.",
+            "Financial institutions must provide consumers with accurate, complete, and timely information about how they handle their financial data.",
+            "Institutions are required to give consumers control over their information, such as through opt-out consent or other methods.",
+            "RFP is part of the \"Big Four\" privacy laws, similar to the Fair Credit Reporting Act (FCRA), which focuses on protecting consumer credit information.",
+            "The law may require institutions to secure consumer financial data, similar to the FCRA's requirements for credit bureaus.",
+            "The Department of the Treasury administers RFP, and non-compliance could result in fines or legal consequences.",
+            "In the event of a security incident, institutions may be required to notify affected consumers, similar to the FCRA's breach notification requirements."
+        ]
+    },
+    {
+        "question": "who is considered to be the inventor of the prepared piano",
+        "cots": [
+            "A prepared piano has both white and black keys.",
+            "The piano evolved over time, and the black keys were introduced by Count Claudio Meglio.",
+            "Count Ferdinando Giuseppe Muzio worked with Claudio Meglio and contributed to the development of the piano around 1712.",
+            "Therefore, Count Ferdinando Giuseppe Muzio is credited with the invention of the prepared piano."
+        ]
+    },
+    {
+        "question": "who decided what rights should be included in the convention on the rights of the child",
+        "cots": [
+            "The Convention on the Rights of the Child was adopted by the United Nations General Assembly.",
+            "The Special Rapporteur on the Rights of the Child played a significant role in finalizing the rights outlined in the convention.",
+            "UNICEF acted as an advocate, supporting the convention and aiding in its implementation.",
+            "The convention was debated extensively, with contributions from numerous countries.",
+            "The UN Decade of the Child (1989-1999) further promoted the convention and ensured its implementation."
+        ]
+    },
+    {
+        "question": "when did the saskatchewan roughriders last won the grey cup",
+        "cots": [
+            "The Grey Cup is the championship game of the Canadian Football League (CFL).",
+            "The Saskatchewan Roughriders are a team from Saskatchewan, Canada, that has won the Grey Cup.",
+            "The Roughriders won the Grey Cup in 1991 and 1995.",
+            "Therefore, the last time the Saskatchewan Roughriders won the Grey Cup was in 1995."
+        ]
+    },
+    {
+        "question": "who played the mom in the home alone movies",
+        "cots": [
+            "The mom in \"Home Alone\" is played by Angela Bassett.",
+            "Angela Bassett has a calm and nurturing voice, fitting the role of the mom.",
+            "In \"Home Alone 2: Lost in New York,\" the mom's role might be portrayed differently, but Angela Bassett is still the most likely candidate.",
+            "Based on the information, Angela Bassett plays the mom in both movies."
+        ]
+    },
+    {
+        "question": "what do you call a vest in the uk",
+        "cots": [
+            "A vest in the US is typically a jacket worn over a shirt.",
+            "In the UK, the term \"vest\" might be misunderstood, but \"vest top\" is a more accurate translation.",
+            "A vest top is a button-up shirt, often longer in the arm, worn over another shirt.",
+            "Therefore, the term for a vest in the UK is \"vest top.\""
+        ]
+    },
+    {
+        "question": "what age do you go to school in japan",
+        "cots": [
+            "Pre-School (Kutora): Children attend pre-school from the ages of 3 to 4 years old.",
+            "Elementary School (Elementa): Starting at 6 years old, children enter the first grade of elementary school and progress through grades 1 to 6.",
+            "Junior High School (Keizai): After completing elementary school, students enter junior high school at around 11 to 12 years old.",
+            "High School (Gakuen): Following junior high, students attend high school, which is divided into lower high school (grades 10 to 12) and upper high school (grade 13), typically spanning from 14 to 18 years old."
+        ]
+    },
+    {
+        "question": "when did indiana jones and the last crusade come out",
+        "cots": [
+            "The first Indiana Jones movie, \"Indiana Jones and the Raiders of the Lost Ark,\" was released in 1981.",
+            "\"Indiana Jones and the Last Crusade\" is the 1981 release, not the 1982 or 1983 one.",
+            "The U.S. release of \"Indiana Jones and the Last Crusade\" was on May 31, 1981.",
+            "The movie features Harrison Ford as Indiana Jones and Jeff Bridges as General Zod, with significant special effects, particularly in the castle battle scene."
+        ]
+    },
+    {
+        "question": "when does the good witch season 4 come out",
+        "cots": [
+            "\"The Good Witch\" is a spin-off from \"The Good Place\" and has been ongoing for several seasons.",
+            "To determine when Season 4 will release, consider the following: official announcements, release schedule, niche network considerations, and fan communities.",
+            "There is no official information available yet, suggesting Season 4 may be in the works but requires confirmation through official channels."
+        ]
+    },
+    {
+        "question": "when did the monarchy in england lose their power",
+        "cots": [
+            "The Tudors were the last royal house in England, ruling from 1485 until the Stuarts took over.",
+            "The Stuarts, including Charles II, ruled from 1625 until 1685.",
+            "Charles II died in 1685.",
+            "The English Civil War, fought between 1642 and 1651, led to the establishment of the Commonwealth as a republic.",
+            "Therefore, the monarchy in England lost its power in 1685 when Charles II died, leading to the establishment of the Commonwealth as a republic."
+        ]
+    },
+    {
+        "question": "the states which are bounded by the bay of bengal",
+        "cots": [
+            "The Bay of Bengal is located in the eastern part of the Indian subcontinent.",
+            "The states that border the Bay of Bengal are Odisha, West Bengal, and Tripura.",
+            "Jharkhand and Chhattisgarh are not directly on the Bay of Bengal, being more in the central region.",
+            "Therefore, the states bounded by the Bay of Bengal are Tripura, West Bengal, and Odisha."
+        ]
+    },
+    {
+        "question": "why were the houston astros move to american league",
+        "cots": [
+            "The Astros were in the NL West division, which had 6 teams.",
+            "They moved to the AL West division, which had 5 teams.",
+            "This move was intended to reduce competition within their division.",
+            "The AL's divisional structure, including a more favorable playoff format, was also considered beneficial for their success.",
+            "Therefore, the Astros moved to the American League to improve their chances of winning the World Series."
+        ]
+    },
+    {
+        "question": "when did the water bottle flip challenge start",
+        "cots": [
+            "The Water Bottle Flip Challenge started around the time of the COVID-19 pandemic.",
+            "It likely began in January 2021, as people had more free time to engage in new trends.",
+            "The challenge involves flipping a water bottle and doing tricks with it, and it was created by influencers.",
+            "The exact start date might vary slightly among sources, but January 1, 2021, is widely recognized as the official launch date."
+        ]
+    },
+    {
+        "question": "who plays kristen dimera on days of our lives 2018",
+        "cots": [
+            "Kristen Dimara played the character Brielle on Days of Our Lives.",
+            "Her father was Michael J. Dimara and her mother was Brenda Fricker, who were also actors on the show.",
+            "Kristen's role as Brielle was in a supporting capacity and involved in complex family dynamics.",
+            "She had guest appearances in other shows and movies before joining Days of Our Lives.",
+            "By 2018, Kristen was still active on the show, either as a guest or a recurring character."
+        ]
+    },
+    {
+        "question": "what is the meaning of the name vinay",
+        "cots": [
+            "\"Vinay\" is a common Indian name, likely derived from Sanskrit or another language.",
+            "The name may be a compound, with \"Vina\" potentially related to Vishnu, a major god in Hinduism.",
+            "\"Vinay\" could symbolize prosperity, fertility, or a divine connection.",
+            "The suffix \"ay\" might add a positive or symbolic connotation.",
+            "\"Vinay\" carries traditional significance and positive aspirations, often reflecting family heritage or cultural values."
+        ]
+    },
+    {
+        "question": "what is the italian word musicians use to describe playing a stringed instrument with a bow",
+        "cots": [
+            "The Italian verb \"bocciare\" means to bow or play with a bow.",
+            "It is commonly used in the context of stringed instruments.",
+            "Therefore, the Italian word musicians use to describe playing a stringed instrument with a bow is \"bocciare.\""
+        ]
+    },
+    {
+        "question": "minimum age limit for chief justice of india",
+        "cots": [
+            "The age limit for the Chief Justice of India is 65 years.",
+            "The candidate must have served as a judge for at least five years before being eligible to become a Chief Justice.",
+            "This requirement ensures that the individual possesses the necessary experience and wisdom to fulfill the role effectively."
+        ]
+    },
+    {
+        "question": "which part of a corn plant would the kernels be",
+        "cots": [
+            "The kernel is the seed of the corn plant.",
+            "The ear of corn is the structure that holds multiple kernels.",
+            "Each kernel is a separate seed.",
+            "The kernels originate from the ovary of the corn plant's flower."
+        ]
+    },
+    {
+        "question": "where do we find globular clusters in the galaxy",
+        "cots": [
+            "Globular clusters are old, dense, and tight-knit groups of stars with low metallicity.",
+            "They are typically located in the outer halo of the galaxy, beyond the main spiral arms and the galactic center.",
+            "Some globular clusters may also be found in the galactic bulge.",
+            "In the Milky Way, globular clusters are visible in regions with less dust, such as the outer parts of the galaxy.",
+            "Similarly, in other galaxies like M31 and M33, globular clusters are found in their outer regions."
+        ]
+    },
+    {
+        "question": "who is going to the orange bowl this year",
+        "cots": [
+            "The Orange Bowl is a significant college football game typically held in early January.",
+            "It features two teams from the Southeastern Conference (SEC).",
+            "Historically, the likely teams are the University of Georgia and the University of Alabama.",
+            "The game is usually scheduled on a Tuesday or Wednesday in January.",
+            "For the most accurate and up-to-date information, it's recommended to check official sources or news outlets for the current season details."
+        ]
+    },
+    {
+        "question": "what are the nfl channels on sirius xm radio",
+        "cots": [
+            "Sirius XM has a section called \"Sports\" where you can find various sports-related channels.",
+            "The main NFL channels include \"NFL Network,\" \"NFL GameCast,\" and \"NFL Sunday Ticket.\"",
+            "\"Sports Extra\" provides additional sports content, including news and analysis related to the NFL.",
+            "There is also a channel for the NFL Combine and college football.",
+            "The \"Total Sports Package\" includes a bundle of channels offering comprehensive sports coverage, including the NFL.",
+            "Availability and pricing may vary by location and subscription tier."
+        ]
+    },
+    {
+        "question": "when was the last time india won a gold medal in hockey at olympics",
+        "cots": [
+            "India has participated in the Olympics for hockey and has won medals in the past.",
+            "The 1992 Olympics in Barcelona were significant for India's hockey team.",
+            "India's hockey team, managed by R. Ananthakrishnan, won a gold medal in 1992.",
+            "The gold medal was secured by defeating the United States in the final match.",
+            "Therefore, the last time India won a gold medal in hockey at the Olympics was in 1992."
+        ]
+    },
+    {
+        "question": "who owns the rights to baby shark song",
+        "cots": [
+            "The Baby Shark song was written by Jack Skellington.",
+            "The song was produced by Toonesonic, a children's music production company.",
+            "The song is distributed under a Creative Commons Attribution-NonCommercial--NoDerivatives (CC BY-NC-ND) license.",
+            "Both Jack Skellington and Toonesonic likely have rights to the song, with Jack holding exclusive authorship and Toonesonic holding additional rights as a producer."
+        ]
+    },
+    {
+        "question": "how many episodes are in one punch man season 1",
+        "cots": [
+            "One Punch Man Season 1 has 12 episodes.",
+            "The number of episodes is typical for anime seasons.",
+            "Each episode covers a specific part of the main character, Takeshi's journey.",
+            "The series was released in 2021, and the number of episodes is consistent across various platforms."
+        ]
+    },
+    {
+        "question": "name of the bird in the lion king",
+        "cots": [
+            "The Lion King movie features a scene with birds as characters.",
+            "The specific bird mentioned in the movie is Kestrel.",
+            "Kestrel is a bird of prey and a character in The Lion King.",
+            "Therefore, the name of the bird in The Lion King is Kestrel."
+        ]
+    },
+    {
+        "question": "who sampled rick james give it to me baby",
+        "cots": [
+            "\"Give It to Me Baby\" was released in 1971 by Rick James.",
+            "The song has been covered by several artists, including The Meters.",
+            "The Meters' version of \"Give It to Me Baby\" was recorded in 1972.",
+            "The Meters' version is widely recognized as a sample of the original 1971 track."
+        ]
+    },
+    {
+        "question": "who was fighting in the battle of amiens",
+        "cots": [
+            "The Battle of Amiens was part of the Hundred Days, a series of conflicts between France and England.",
+            "France was led by Charles of Anjou, a prominent and strategic military leader.",
+            "England was led by King Henry II, who initiated the invasion and played a crucial role in the conflict.",
+            "The battle took place on April 13, 1314, and was a significant engagement in the history of France and England."
+        ]
+    },
+    {
+        "question": "what are the three types of wind turbines",
+        "cots": [
+            "Savonius Wind Turbine: A horizontal-axis design with curved blades, suitable for compact and urban applications.",
+            "Darrieus Wind Turbine: A vertical-axis design that can rotate freely, making it efficient in variable wind conditions, especially in urban or offshore settings.",
+            "Horizontal-Axis Wind Turbine (HAWT): This category includes various designs such as the Turbomac, which are characterized by their fixed orientation and are commonly used in large-scale or industrial applications."
+        ]
+    },
+    {
+        "question": "who plays ollie in coop and cami ask the world",
+        "cots": [
+            "Ollie is a character in the Coop and Cami Ask the World show.",
+            "Daryl Hannah is known for playing a character named Ollie in another show.",
+            "The character Ollie in Coop and Cami Ask the World is played by Daryl Hannah."
+        ]
+    },
+    {
+        "question": "who played the most seasons in nfl history",
+        "cots": [
+            "Raynard Berry played for 31 different teams.",
+            "He played 31 seasons.",
+            "This achievement remains unmatched in NFL history."
+        ]
+    },
+    {
+        "question": "who won the fifa fair play award 2018",
+        "cots": [
+            "The FIFA Fair Play Award is given to individuals or teams that exemplify fair play throughout the season.",
+            "Neymar JR, a Brazilian player who was playing for Barcelona at the time, won the award.",
+            "Neymar was recognized for his outstanding sportsmanship, fair play, and positive attitude both on and off the field.",
+            "Therefore, the FIFA Fair Play Award for 2018 was won by Neymar JR."
+        ]
+    },
+    {
+        "question": "where does red dead redemption 1 take place",
+        "cots": [
+            "Red Dead Redemption 1 is set in the American Old West, specifically in the 19th century.",
+            "The game primarily takes place in two main locations: San Andreas and Red Dead.",
+            "San Andreas is a large, sprawling city, often compared to real-world locations like California.",
+            "Red Dead is a frontier town, more rural and less developed.",
+            "Additional elements of the game world include the San Gabriel River and the San Gorgiones Mountain Range.",
+            "The game world is vast, with various towns and areas that players can explore as the story progresses."
+        ]
+    },
+    {
+        "question": "what is the star sign for september 15",
+        "cots": [
+            "The zodiac signs are: Aries (March 21 - April 19), Taurus (April 20 - May 20), Gemini (May 21 - June 21), Cancer (June 22 - July 22), Leo (July 23 - August 22), Virgo (August 23 - September 22), Libra (September 23 - October 23), Scorpio (October 24 - November 22), Sagittarius (November 23 - December 21), Capricorn (December 22 - January 5), Aquarius (January 6 - February 19), and Pisces (February 20 - March 20).",
+            "September 15 falls within Virgo's time frame, which is August 23 to September 22.",
+            "Therefore, the star sign for September 15 is Virgo."
+        ]
+    },
+    {
+        "question": "when do meredith and derek get back together in season 2",
+        "cots": [
+            "Meredith and Derek are a couple in the first season of \"The Good Place.\"",
+            "In the second season, Derek dies, and Meredith is devastated.",
+            "Meredith and Derek have a moment of connection in a bar in the second season, but it's unclear if their relationship is permanent.",
+            "The episode ends with a cliffhanger, suggesting that their relationship may be affected by Derek's death.",
+            "The relationship is left open-ended, hinting that they might reconcile again in future seasons but is not definitively resolved."
+        ]
+    },
+    {
+        "question": "who sings a white sport coat and a pink carnation",
+        "cots": [
+            "\"What a Wonderful World\" is a well-known song that has been popularized by several artists.",
+            "The version of \"What a Wonderful World\" by Ella Fitzgerald is particularly popular and was recorded in the 1940s.",
+            "\"Oh, What a Wonderful World\" is a duet, and the version recorded by Louis Armstrong and Ethel Merman was recorded in the 1930s.",
+            "Both versions of the songs are associated with classic films from the 1930s and 1940s, including \"The Wizard of Oz.\""
+        ]
+    },
+    {
+        "question": "an act of the legislature directly punishing a person or group is referred to as a\u200b",
+        "cots": [
+            "The legislature passes laws that create rules for everyone to follow.",
+            "If the legislature passes a law that imposes penalties, such as fines or jail time, it's a form of punishment.",
+            "The term \"statute\" refers to a written law passed by the legislature.",
+            "Therefore, the act of the legislature that directly punishes a person or group is referred to as a statute."
+        ]
+    },
+    {
+        "question": "the official u.s. poverty line is based on the cost of what",
+        "cots": [
+            "The U.S. poverty line is based on the cost of a basket of goods and services that a household would need to maintain a basic standard of living.",
+            "The basket includes essential items such as food, housing, clothing, healthcare, and other necessities.",
+            "The poverty line is adjusted annually for inflation using the Consumer Price Index (CPI).",
+            "The line is also adjusted for household size through equivalent income measures.",
+            "The poverty line is calculated using data from the U.S. Census Bureau and statistical methods.",
+            "The line has limitations, as it does not account for non-pecuniary factors such as health, education, or social connections."
+        ]
+    },
+    {
+        "question": "what place did jennifer hudson get in american idol",
+        "cots": [
+            "Jennifer Hudson was a contestant on American Idol around 2005-2006.",
+            "She was in the top 10 and known for her unique voice.",
+            "She performed the hit song \"No One Knows Me.\"",
+            "Despite some issues during her live performance, she made it to the live shows.",
+            "After American Idol, she had more success with her solo career, including collaborations like \"All of Me\" with C Cordero.",
+            "Jennifer Hudson's placement in the competition was in the top 10, but she did not advance further to the top 5."
+        ]
+    },
+    {
+        "question": "who was the oldest nfl player in history",
+        "cots": [
+            "Joe Theismann was a legendary running back for the Cleveland Browns.",
+            "He played for the Browns from 1957 to 1965.",
+            "Joe Theismann retired at the age of 86.",
+            "Therefore, Joe Theismann was the oldest NFL player in history."
+        ]
+    },
+    {
+        "question": "who did the soviet union want to create dependence on their oil in the 1950s - 1960s",
+        "cots": [
+            "The Soviet Union sought to create dependence on their oil among other nations to maintain control over the global oil market.",
+            "They aimed to influence OPEC to ensure that oil prices were favorable to the Soviet economy.",
+            "The Soviets targeted the Middle East as a critical oil source, seeking to influence countries in the region to secure a steady supply of oil.",
+            "This strategy was part of the Cold War rivalry with the United States, as the Soviets sought to reduce the US's ability to counterbalance their influence."
+        ]
+    }
+]

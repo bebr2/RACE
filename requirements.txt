@@ -1,0 +1,9 @@
+modelscope==1.23.2
+nltk==3.9.1
+numpy==2.2.6
+scikit_learn==1.6.1
+selfcheckgpt==0.1.7
+spacy==3.8.4
+torch==2.3.1+cu121
+tqdm==4.67.1
+transformers==4.51.3
