@@ -1,0 +1,4 @@
+Question: {}
+
+- Think step by step using the format: "Thought: ..."
+- Then conclude with the answer using the format: "Answer: ..."

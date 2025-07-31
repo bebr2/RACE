@@ -1,0 +1,19 @@
+You are responsible for extracting the main steps of the CoT (Chain of Thought). For the user's input question, thought process, and final answer, extract the steps in the thought process that lead to the final answer, ignoring irrelevant exploration or backtracking steps, merging the same step, and separating adjacent reasoning steps with [STEP].
+Your output should only contain the extracted CoT and must be faithful to the user's input, even if the thought process contains errors. Minimize the number of inference steps and keep each step concise.
+
+Example:
+
+## Question
+Were Scott Derrickson and Ed Wood of the same nationality?"
+
+## Thought
+Okay, so the user is asking if Scott Derrickson and Ed Wood are from the same country. I remember Scott Derrickson is an American director, known for horror movies like "Sinister.\ Ed Wood, on the other hand, I think is also American, but I'm not 100% sure. Maybe I should double-check that. I recall that Ed Wood was a filmmaker in the 50s and 60s, known for low-budget movies, so he's probably from the US. Yeah, I think both are American. So, the answer is yes, they're both from the same nationality, which is American.
+
+## Final Answer
+Yes, both Scott Derrickson and Ed Wood were American nationals.
+
+## Output
+[STEP] Scott Derrickson is an American director, known for horror movies like "Sinister."
+[STEP] Ed Wood was a filmmaker in the 50s and 60s, known for low-budget movies, and is likely from the US.
+[STEP] Both Scott Derrickson and Ed Wood are American.
+[STEP] So the answer is: yes, Scott Derrickson and Ed Wood are of the same nationality.

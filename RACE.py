@@ -504,21 +504,21 @@ class RACEScorer:
         sample_answers = sample_data.get("final_answer", [])
         sample_cots = sample_data.get("cots", [])
         
-        # Calculate uncertainty component
+        # Calculate uncertainty component (weight for S_CC)
         uncertainty = self.calculate_uncertainty(question, main_cots, main_answer, False)
         
-        # Calculate cross-uncertainty (with other answers)
+        # Calculate cross-uncertainty (with other answers) (S_CA)
         cross_uncertainty = self.calculate_cross_uncertainty(
             question, main_cots, sample_answers
         )
         
-        # Calculate consistency component
+        # Calculate consistency component (S_CC)
         consistency = self.calculate_consistency_score(main_cots, sample_cots, uncertainty)
         
-        # Calculate entity consistency
+        # Calculate entity consistency (S_Coh)
         entity_consistency = self.calculate_entity_consistency(main_reasoning, "\n".join(main_cots))
         
-        # Calculate SIndex score
+        # Calculate SIndex score (S_AA)
         sindex = self.calculate_sindex(main_answer, sample_answers, question)
         
         # Combine components into overall RACE score
