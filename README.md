@@ -5,6 +5,8 @@
 
 - **Arxiv Link**: https://arxiv.org/abs/2506.04832
 
+- **Huggingface**: [bebr2/RACE-CoT-Extractor-Llama-8B](https://huggingface.co/bebr2/RACE-CoT-Extractor-Llama-8B).
+
 If you find our project interesting or helpful, we would appreciate it if you could give us a star! Your support is a tremendous encouragement to us!
 
 Welcome to the official GitHub repository for *RACE: Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models*.
