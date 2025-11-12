@@ -1,17 +1,13 @@
-
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2"
 import numpy as np
-import json
 import torch
 import torch.nn.functional as F
 import spacy
-from nltk import sent_tokenize
 from itertools import combinations
 from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from modelscope import AutoTokenizer as MSAutoTokenizer
 from modelscope import AutoModel as MSAutoModel
+from cot_extraction import generate_response
 
 try:
     from selfcheckgpt.modeling_selfcheck import SelfCheckNLI
@@ -22,10 +18,7 @@ except ImportError:
 
 class RACEScorer:
     """
-    RACE (Reliability Assessment with Consistency Evaluation) scorer.
-    
-    This class calculates reliability scores for LLM outputs based on
-    multiple components: uncertainty, self-consistency, and entity consistency.
+    RACEscorer.
     """
     
     def __init__(self, 
@@ -76,6 +69,7 @@ class RACEScorer:
                 device_map="auto" if use_gpu else None,
                 torch_dtype=torch.float32
             )
+            self.llm_model.set_attn_implementation('eager')
             print(f"LLM model loaded from {llm_model_path}")
         except Exception as e:
             print(f"Failed to load LLM model: {e}")
@@ -91,6 +85,14 @@ class RACEScorer:
             print(f"Failed to load spaCy model: {e}")
             print("Will skip entity extraction")
             self.nlp = None
+
+        try:
+            with open("datasum_prompt.txt") as f:
+                self.cot_extract_sys_prompt = f.read()
+        except Exception as e:
+            print(f"Failed to load datasum_prompt.txt: {e}")
+            print("Will skip cot extraction")
+            self.cot_extract_sys_prompt = None
 
     def mean_pooling(self, model_output, attention_mask):
         """Mean pooling for sentence embeddings"""
@@ -490,8 +492,8 @@ class RACEScorer:
         Calculate the overall RACE score for a given main output and sample outputs.
         
         Args:
-            main_data: Dictionary with main output data (question, final_answer, think, cots)
-            sample_data: Dictionary with sample outputs data (final_answer, cots)
+            main_data: Dictionary with main output data (question, final_answer, think, Option(cots))
+            sample_data: Dictionary with sample outputs data (final_answer, cots / think)
             
         Returns:
             Dictionary with components and final RACE score
@@ -499,10 +501,43 @@ class RACEScorer:
         question = main_data.get("question", "")
         main_answer = main_data.get("final_answer", "")
         main_reasoning = main_data.get("think", "")
-        main_cots = main_data.get("cots", [])
+        # main_cots = main_data.get("cots", [])
         
+
         sample_answers = sample_data.get("final_answer", [])
-        sample_cots = sample_data.get("cots", [])
+        # sample_cots = sample_data.get("cots", [])
+
+        if "cots" in main_data:
+            main_cots = main_data["cots"]
+        else:
+            main_cots = []
+            if main_answer:
+                cot = generate_response(
+                    f"## Question\n{question}\n\n## Thought\n{main_reasoning}\n\n## Final Answer\n{main_answer.strip()}",
+                    self.llm_model, self.llm_tokenizer, self.cot_extract_sys_prompt
+                )
+                main_cots = cot.split("[STEP]")
+                main_cots = [c.strip() for c in main_cots if c.strip()]
+            
+
+        if "cots" in sample_data:
+            sample_cots = sample_data["cots"]
+        else:
+            assert "think" in sample_data, "think is required in sample_data if cot is not provided"
+            assert len(sample_answers) == len(sample_data["think"]), "think and final_answer must have the same length"
+            sample_cots = []
+            for think, sample_answer in zip(sample_data["think"], sample_answers):
+                if not sample_answer.strip():
+                    sample_cots.append([])
+                else:
+                    cot = generate_response(
+                        f"## Question\n{question}\n\n## Thought\n{think}\n\n## Final Answer\n{sample_answer.strip()}",
+                        self.llm_model, self.llm_tokenizer, self.cot_extract_sys_prompt
+                    )
+                    cots = cot.split("[STEP]")
+                    cots = [c.strip() for c in cots if c.strip()]
+                    sample_cots.append(cots)
+
         
         # Calculate uncertainty component (weight for S_CC)
         uncertainty = self.calculate_uncertainty(question, main_cots, main_answer, False)
@@ -559,90 +594,3 @@ class RACEScorer:
         return results
 
 
-def load_json_files(directory, prefix):
-    with open(os.path.join(directory, f"{prefix}.json"), 'r') as f:
-        data = json.load(f)
-    return data
-
-
-def main():
-    """
-    Example of how to use the RACE scorer.
-    
-    Usage:
-        python RACE.py --dataset HotpotQA --model qwen7b --output ./race_results/
-    """
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='Calculate RACE scores for LLM outputs')
-    parser.add_argument('--dataset', type=str, required=True, help='Dataset name')
-    parser.add_argument('--model', type=str, required=True, help='Model name')
-    parser.add_argument('--data_dir', type=str, default='/path/to/modeloutput', 
-                        help='Base directory containing model outputs')
-    parser.add_argument('--output', type=str, default='./race_scores.json', 
-                        help='Output file path')
-    parser.add_argument('--embedding_model', type=str, default='/path/to/all-MiniLM-L6-v2', 
-                        help='Path to embedding model')
-    parser.add_argument('--nli_model', type=str, default='/path/to/deberta-v3-large-mnli', 
-                        help='Path to NLI model')
-    parser.add_argument('--llm_model', type=str, default='/path/to/llama-model', 
-                        help='Path to LLM model')
-    parser.add_argument('--gpu', action='store_true', help='Use GPU for calculations')
-    parser.add_argument('--sindex_threshold', type=float, default=0.9, help='Threshold for SIndex clustering')
-    
-    args = parser.parse_args()
-    
-    # Construct paths
-    data_path = os.path.join(args.data_dir, args.dataset, args.model)
-    os.makedirs(os.path.dirname(args.output), exist_ok=True)
-    
-    # Load data
-    print(f"Loading data from {data_path}...")
-    
-    # Sort files to ensure proper order
-    
-    # Load main dataset
-    main_data = load_json_files(data_path, 'result')
-    
-    main_sum_data = load_json_files(data_path, 'summary_result')
-    
-    for i in range(len(main_data)):
-        main_data[i]['cots'] = main_sum_data[i]['cots']
-    
-    # Load sample dataset
-    sample_data = load_json_files(data_path, 'sample_result')
-    
-    
-    sample_sum_data = load_json_files(data_path, 'summary_sample_result')
-    
-    for i in range(len(sample_data)):
-        sample_data[i]['cots'] = sample_sum_data[i]['cots']
-    
-    # Initialize RACE scorer
-    race_scorer = RACEScorer(
-        embedding_model_path=args.embedding_model,
-        nli_model_path=args.nli_model,
-        llm_model_path=args.llm_model,
-        use_gpu=args.gpu,
-        sindex_threshold=args.sindex_threshold
-    )
-    
-    # Calculate RACE scores
-    race_scores = race_scorer.batch_calculate_race(main_data, sample_data)
-    
-    # Save results
-    with open(args.output, 'w') as f:
-        json.dump(race_scores, f, indent=2)
-    
-    print(f"RACE scores saved to {args.output}")
-    
-    # Display aggregate statistics
-    scores_only = [score['race_score'] for score in race_scores]
-    print(f"Average RACE score: {np.mean(scores_only):.4f}")
-    print(f"Median RACE score: {np.median(scores_only):.4f}")
-    print(f"Min RACE score: {np.min(scores_only):.4f}")
-    print(f"Max RACE score: {np.max(scores_only):.4f}")
-
-
-if __name__ == "__main__":
-    main()

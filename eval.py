@@ -1,27 +1,20 @@
 import json
-import os
+import sys
 
+dataset_name = sys.argv[2]
+model_name = sys.argv[1]
 
-
-with open("./race_scores.json") as f:
+with open(f"./{model_name}_race_score.json") as f:
     data = json.load(f)
     
 preds = [d["race_score"] for d in data]
-
-
-
-
-dataset_name = "NQ"
-model_name = "qwen7b"
 
 with open(f"./modeloutput/{dataset_name}/{model_name}/judge.json") as f:
     y = json.load(f)
 y = [yy["llm"] for yy in y]
 
 import json
-import os
-import random
-from sklearn.metrics import precision_recall_curve, auc, roc_auc_score
+from sklearn.metrics import roc_auc_score
 
 
 def get_AUC_ROC(preds, human_labels):

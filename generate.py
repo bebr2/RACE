@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, required=True, help="Model name (e.g., ds7b). Please name the thinking model with a name that ends with the letter b")
+    parser.add_argument("--model_name", type=str, required=True, help="Model name (e.g., qwen3-14b). Please name the thinking model with a name that ends with the letter b")
     parser.add_argument("--model_path", type=str, required=True, help="Path to the model")
     parser.add_argument("--dataset_name", type=str, required=True, help="Dataset name")
     parser.add_argument("--gpu_id", type=str, default="0", help="GPU ID to use")
