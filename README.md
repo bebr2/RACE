@@ -244,3 +244,17 @@ Under `./modeloutput`, we include the entire outputs from **Qwen3-14B** on the *
 * `summary_result.json`, `summary_sample_result.json`: Outputs processed by the CoT Extractor.
 
 You can pull them using `Git LFS` and quickly run `main.py` (see `run.sh` for parameter settings) to reproduce our results.
+
+## Citations
+
+```
+@misc{wang2025jointevaluationanswerreasoning,
+      title={Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models}, 
+      author={Changyue Wang and Weihang Su and Qingyao Ai and Yiqun Liu},
+      year={2025},
+      eprint={2506.04832},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.04832}, 
+}
+```
